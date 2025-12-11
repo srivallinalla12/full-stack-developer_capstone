@@ -1,0 +1,147 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="card" style="width: 85%; margin: 3% auto; padding: 2%; border-radius: 12px;">
+
+      <!-- About Header -->
+      <div class="banner" name="about-header" style="text-align:center; margin-bottom: 3%;">
+        <h1 style="font-weight: 700; margin-bottom: 10px;">About Us</h1>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: auto; line-height: 1.6;">
+          Welcome to Best Cars Dealership — your trusted destination for high-quality domestic 
+          and imported vehicles across North America. We believe buying a car should feel simple, 
+          transparent, and even a bit exciting.
+        </p>
+        <p style="font-size: 1rem; max-width: 700px; margin: 15px auto 0; line-height: 1.6;">
+          Our team of specialists will guide you through every step — from choosing the right model 
+          and financing options to trade-ins and after-sales support.
+        </p>
+      </div>
+
+      <!-- Team Section: three cards in one row -->
+      <div style="
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+           gap: 24px;
+           flex-wrap: nowrap;
+      ">
+
+        <!-- PERSON 1 -->
+        <div class="card" style="
+             flex: 1;
+             max-width: 32%;
+             border-radius: 12px;
+             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        ">
+          <img class="card-img-top"
+               src="https://img.freepik.com/free-photo/handsome-caucasian-man-wearing-casual-clothes-glasses-with-happy-cool-smile-face-lucky-person_839833-12772.jpg"
+               alt="Portrait of Alex Carter"
+               style="
+                 border-top-left-radius: 12px;
+                 border-top-right-radius: 12px;
+                 width: 100%;
+                 height: 220px;
+                 object-fit: cover;
+               ">
+          <div class="card-body" style="text-align:center;">
+            <p class="title" style="font-size: 1.3rem; font-weight: 600;">Alex Carter</p>
+            <p style="font-weight: 500;">Founder &amp; CEO</p>
+            <p class="card-text" style="font-size: 0.95rem;">
+              Alex started Best Cars with a mission to bring transparency and trust back to the dealership experience.
+              With 15+ years of industry leadership, he ensures customers always come first.
+            </p>
+            <p><a href="mailto:alex.carter@bestcars.com">alex.carter@bestcars.com</a></p>
+          </div>
+        </div>
+
+        <!-- PERSON 2 -->
+        <div class="card" style="
+             flex: 1;
+             max-width: 32%;
+             border-radius: 12px;
+             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        ">
+          <img class="card-img-top"
+               src="https://www.publicdomainpictures.net/pictures/600000/velka/smiling-professional-car-saleswoman-17117204464Q8.jpg"
+               alt="Portrait of Sophia Miller"
+               style="
+                 border-top-left-radius: 12px;
+                 border-top-right-radius: 12px;
+                 width: 100%;
+                 height: 220px;
+                 object-fit: cover;
+               ">
+          <div class="card-body" style="text-align:center;">
+            <p class="title" style="font-size: 1.3rem; font-weight: 600;">Sophia Miller</p>
+            <p style="font-weight: 500;">Sales Director</p>
+            <p class="card-text" style="font-size: 0.95rem;">
+              Sophia leads our sales team with unmatched product knowledge and a passion for helping customers 
+              find the perfect vehicle for their lifestyle and budget.
+            </p>
+            <p><a href="mailto:sophia.miller@bestcars.com">sophia.miller@bestcars.com</a></p>
+          </div>
+        </div>
+
+        <!-- PERSON 3 -->
+        <div class="card" style="
+             flex: 1;
+             max-width: 32%;
+             border-radius: 12px;
+             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        ">
+          <img class="card-img-top"
+               src="https://www.publicdomainpictures.net/pictures/600000/velka/smiling-professional-car-saleswoman-1711720466ROB.jpg"
+               alt="Portrait of Rachel Evans"
+               style="
+                 border-top-left-radius: 12px;
+                 border-top-right-radius: 12px;
+                 width: 100%;
+                 height: 220px;
+                 object-fit: cover;
+               ">
+          <div class="card-body" style="text-align:center;">
+            <p class="title" style="font-size: 1.3rem; font-weight: 600;">Rachel Evans</p>
+            <p style="font-weight: 500;">Finance &amp; Trade-In Specialist</p>
+            <p class="card-text" style="font-size: 0.95rem;">
+              Rachel helps customers navigate financing, leasing, and trade-ins with clarity and professionalism,
+              so every driver leaves with a deal that feels right.
+            </p>
+            <p><a href="mailto:rachel.evans@bestcars.com">rachel.evans@bestcars.com</a></p>
+          </div>
+        </div>
+
+      </div>
+  </div>
+</div>
+
+</body>
+</html>
